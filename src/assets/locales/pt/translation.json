@@ -1,0 +1,15 @@
+{
+    "Navbar" : {
+        "Home": "Lar",
+        "About": "Sobre Nós",
+        "Contact": "Contate-nos",
+        "Services": "Serviços",
+        "Shipping": "Envio"
+    },
+    "Home":{
+        "banner_title": "Chovendo ofertas para o verão quente!",
+        "banner_subtitle": "25% de desconto em todos os produtos",
+        "contactus_button" : "Contate-nos",
+        "findus_button" : "Encontre mais"
+    }
+}
