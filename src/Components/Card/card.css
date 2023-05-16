@@ -1,0 +1,39 @@
+/* Adv Card Start */
+.adv_card .card{
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    transition: all .3s ease-in-out;
+    height: 380px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adv_card .card:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+    transform: scale(1.05);
+}
+
+.adv_card .card .card-body{
+    height: 100%;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top, #000000b3, #00000000);
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.button_design{
+    padding: 4px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    border-radius: 0;
+}
+.button_design:hover{
+    background-color: #C07F00;
+    border: 1px solid #C07F00;
+    color: #fff;
+}

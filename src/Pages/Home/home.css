@@ -2,19 +2,26 @@
     background-image: linear-gradient(#4159c44b, #6b40cf6e),
     url("./../../../image/background/background.jpg");
   width: auto;
-  height: 90vh;
+  height: 95vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+.banner-text-block{
+    display: inline-flex;
+    height: 95vh;
+    align-items: center;
+}
 .banner-title{
+    position: relative;
     color: #fff;
-    padding-top: 15%;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
     width: 70%;
+    
 }
 .banner-title h1{
-    font-size: 66px;
+    font-size: 45px;
     font-weight: 700;
     color: #000;
     font-family: 'Roboto', sans-serif;
@@ -34,6 +41,11 @@
     margin-top: 20px;
     border-radius: 0;
 }
+.banner-title .button_design:hover{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
 .banner-title .button_design2{
     padding: 10px 30px;
     font-size: 20px;
@@ -42,4 +54,9 @@
     cursor: pointer;
     margin-top: 20px;
     border-radius: 0;
+}
+
+.adv_offer_block{
+    margin-top: 70px;
+    margin-bottom: 70px;
 }

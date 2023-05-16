@@ -2,7 +2,7 @@
   padding: 0;
 }
 .navbar-background {
-  position: fixed;
+  position: absolute;
   z-index: 10;
   background: #0fa3ff42;
   background: -webkit-linear-gradient(to top, #0fa3ff42,#0fa3ff42);
@@ -14,7 +14,7 @@
 }
 
 .nav-item {
-  padding: 0.6rem 1.5rem;
+  padding: 1rem 1.5rem;
   margin: 0;
 }
 .nav-link {
