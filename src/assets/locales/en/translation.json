@@ -11,5 +11,8 @@
         "banner_subtitle": "25% Off On All Products",
         "contactus_button": "Contact Us",
         "findus_button": "Find More"
+    },
+    "button" : {
+        "shopnow" : "Shop Now"
     }
 }
