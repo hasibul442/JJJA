@@ -1,5 +1,5 @@
-.banner-body{
-    background-image: linear-gradient(#4159c44b, #6b40cf6e),
+.banner-body {
+  background-image: linear-gradient(#4159c44b, #6b40cf6e),
     url("./../../../image/background/background.jpg");
   width: auto;
   height: 95vh;
@@ -7,71 +7,156 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.banner-text-block{
-    display: inline-flex;
-    height: 95vh;
-    align-items: center;
+.banner-text-block {
+  display: inline-flex;
+  height: 95vh;
+  align-items: center;
 }
-.banner-title{
-    position: relative;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    width: 70%;
-    
+.banner-title {
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  width: 70%;
 }
-.banner-title h1{
-    font-size: 45px;
+.banner-title h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+.banner-title h6 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Lato", sans-serif;
+}
+
+.banner-title .button_design {
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  border-radius: 0;
+}
+.banner-title .button_design:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+.banner-title .button_design2 {
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 0;
+}
+.client_logo_slider {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.adv_offer_block {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.featured_product_block {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: #f5f7f9;
+}
+
+.featured_product_block .featured_product_title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.aboutus .history-img {
+  width: 250px;
+  height: calc(width * 0.866); /* width * 0.866 */
+  filter: drop-shadow(0px 5px 10px #C07F00);
+}
+
+.history-image-shape {
+  width: 100%; /* container height - (border thickness * 2) */
+  height: 100%; /* container height - (border thickness * 2) */
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.history-side-image {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  /* -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%); */
+  /* box-shadow: 0px 5px 10px #ec008c; */
+}
+.jjja-history-headline {
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
 }
-.banner-title h6{
-    font-size: 26px;
-    font-weight: 700;
-    color: #000;
+.history-short-description {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #000;
 }
 
-.banner-title .button_design{
-    padding: 10px 30px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
-    border-radius: 0;
-}
-.banner-title .button_design:hover{
-    background-color: #000;
-    border: 1px solid #000;
-    color: #fff;
-}
-.banner-title .button_design2{
-    padding: 10px 30px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    margin-top: 20px;
-    border-radius: 0;
-}
-.client_logo_slider{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.adv_offer_block{
-    margin-top: 100px;
-    margin-bottom: 50px;
+.company-history-point div p{
+  padding-top: 7px;
+    font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  /* color: #0083ca; */
 }
 
-.featured_product_block{
+
+@media screen and (max-width: 420px) {
+  .history-img {
+    width: 300px;
+    height: 259.8; /* width * 0.866 */
+  }
+}
+@media screen and (max-width: 760px) {
+  .history-img {
+    padding-top: 10%;
+  }
+  .katalyst-history-headline {
+    padding-top: 0px;
+  }
+}
+
+.our_service {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  
+.our_service_title {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+  }
+.our_service_subtitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  .why_choose_us {
     padding-top: 70px;
     padding-bottom: 100px;
     background-color: #f5f7f9;
-}
+  }
 
-.featured_product_block .featured_product_title{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 50px;
-}
+  .why_choose_us_description{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+  }
