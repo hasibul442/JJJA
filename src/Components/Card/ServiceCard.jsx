@@ -6,9 +6,9 @@ function ServiceCard(props) {
       <div className="card service_card">
           <div className="card-1">
             <div className="card__icon">
-              {props.icon} <span  className="card__title">{props.title_en}</span>
+              {props.icon}
             </div>
-
+            <p className="card__title">{props.title_en}</p>
             <p className="card__description">
               {props.description_en}
             </p>
