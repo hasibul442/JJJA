@@ -7,7 +7,6 @@ function Footer() {
         <div className="container">
           <footer
             className="text-white text-center text-lg-start"
-            style={{backgroundColor: "#23242a"}}
           >
             <div className="p-4">
               <div className="row mt-4">
