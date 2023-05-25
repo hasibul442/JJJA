@@ -9,7 +9,7 @@ function Footer() {
             className="text-white text-center text-lg-start"
             style={{backgroundColor: "#23242a"}}
           >
-            <div className="container p-4">
+            <div className="p-4">
               <div className="row mt-4">
                 <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
                   <h5 className="text-uppercase mb-4">About company</h5>
