@@ -6,6 +6,7 @@ import "./i18n.js";
 import Slider from "./Include/Slider";
 import Home from "./Pages/Home/Home";
 import Footer from "./Include/Footer";
+import Contactus from "./Pages/ContactUs/Contactus";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contactus" element={<Contactus />} />
         </Routes>
         <Footer />
       </Router>
