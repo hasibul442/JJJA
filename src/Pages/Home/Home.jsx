@@ -64,12 +64,9 @@ function Home() {
             </div>
 
             <div className="col-md-6 my-auto">
-              <p className="h2 jjja-history-headline">Our Company</p>
+              <p className="h2 text-center jjja-history-headline">Our Company</p>
               <p className="history-short-description">
-                JJJA, a partnership entity, was established considering the
-                growth potentiality of textile industries in Bangladesh. Textile
-                manufacturers in Bangladesh need fiber, yarn, fabric, dyestuff,
-                basic and auxiliary chemicals as their raw materials
+              JJJA is a Bangladeshi clothing manufacturer, is leading supplier of readymade garments and denim fabric in the world. We are one of the top clothing companies in Bangladesh. The company produces some of the most fashionable denim fabrics and garment products and owns one of the most comprehensive and resourceful manufacturing facilities in Bangladesh.
               </p>
 
               <div>

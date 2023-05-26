@@ -4,147 +4,183 @@ function Footer() {
   return (
     <>
       <section className="footerBlock">
-        <div className="container">
-          <footer
-            className="text-white text-center text-lg-start"
-          >
-            <div className="p-4">
-              <div className="row mt-4">
-                <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
-                  <h5 className="text-uppercase mb-4">About company</h5>
-
-                  <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti.
-                  </p>
-
-                  <p>
-                    Blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas molestias.
-                  </p>
-
-                  <div className="mt-4">
-                    <a
-                      type="button"
-                      className="btn btn-floating btn-warning btn-lg"
-                    >
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a
-                      type="button"
-                      className="btn btn-floating btn-warning btn-lg"
-                    >
-                      <i className="fab fa-dribbble"></i>
-                    </a>
-
-                    <a
-                      type="button"
-                      className="btn btn-floating btn-warning btn-lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </a>
-
-                    <a
-                      type="button"
-                      className="btn btn-floating btn-warning btn-lg"
-                    >
-                      <i className="fab fa-google-plus-g"></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-                  <h5 className="text-uppercase mb-4 pb-1">Search something</h5>
-
-                  <div className="form-outline form-white mb-4">
-                    <input
-                      type="text"
-                      id="formControlLg"
-                      className="form-control form-control-lg"
-                    />
-                    <label
-                      className="form-label"
-                      for="formControlLg"
-                      style={{marginLeft: "0px"}}
-                    >
-                      Search
-                    </label>
-                    <div className="form-notch">
-                      <div
-                        className="form-notch-leading"
-                        style={{width: "9px"}}
-                      ></div>
-                      <div
-                        className="form-notch-middle"
-                        style={{width: "48.8px"}}
-                      ></div>
-                      <div className="form-notch-trailing"></div>
+        <footer className="footer-section">
+          <div className="container">
+            <div className="footer-cta pt-5 ">
+              <div className="row">
+                <div className="col-xl-4 col-md-4 mb-30">
+                  <div className="single-cta">
+                    <i className="fas fa-map-marker-alt"></i>
+                    <div className="cta-text">
+                      <h4>Find us</h4>
+                      <span>
+                        Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+                        Bangalore-560016{" "}
+                      </span>
                     </div>
                   </div>
-
-                  <ul className="fa-ul" style={{marginLeft: "1.65em"}}>
-                    <li className="mb-3">
-                      <span className="fa-li">
-                        <i className="fas fa-home"></i>
-                      </span>
-                      <span className="ms-2">New York, NY 10012, US</span>
-                    </li>
-                    <li className="mb-3">
-                      <span className="fa-li">
-                        <i className="fas fa-envelope"></i>
-                      </span>
-                      <span className="ms-2">info@example.com</span>
-                    </li>
-                    <li className="mb-3">
-                      <span className="fa-li">
-                        <i className="fas fa-phone"></i>
-                      </span>
-                      <span className="ms-2">+ 01 234 567 88</span>
-                    </li>
-                    <li className="mb-3">
-                      <span className="fa-li">
-                        <i className="fas fa-print"></i>
-                      </span>
-                      <span className="ms-2">+ 01 234 567 89</span>
-                    </li>
-                  </ul>
                 </div>
-
-                <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-                  <h5 className="text-uppercase mb-4">Opening hours</h5>
-
-                  <table className="table text-center text-white">
-                    <tbody className="font-weight-normal">
-                      <tr>
-                        <td>Mon - Thu:</td>
-                        <td>8am - 9pm</td>
-                      </tr>
-                      <tr>
-                        <td>Fri - Sat:</td>
-                        <td>8am - 1am</td>
-                      </tr>
-                      <tr>
-                        <td>Sunday:</td>
-                        <td>9am - 10pm</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div className="col-xl-4 col-md-4 mb-30">
+                  <div className="single-cta">
+                    <i className="fas fa-phone"></i>
+                    <div className="cta-text">
+                      <h4>Call us</h4>
+                      <span>+91 1234567890</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-md-4 mb-30">
+                  <div className="single-cta">
+                    <i className="far fa-envelope-open"></i>
+                    <div className="cta-text">
+                      <h4>Mail us</h4>
+                      <span>contact@gmail.com</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div
-              className="text-center p-3"
-              style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
-            >
-              © 2023 Copyright:
-              <a className="text-white" href="#">
-                Hasibul Hasan
-              </a>
+            <div className="footer-content pt-5 pb-1">
+              <div className="row">
+                <div className="col-xl-4 col-lg-4 mb-50">
+                  <div className="footer-widget">
+                    <div className="footer-logo">
+                      <a href="index.html">
+                        <img
+                          src="/image/logo/logo_f.svg"
+                          className="img-fluid"
+                          alt="logo"
+                        />
+                      </a>
+                    </div>
+                    <div className="footer-text">
+                      <p>
+                      JJJA is a leading supplier of readymade garments and denim fabric in the world. The company produces some of the most fashionable denim fabrics and garment products.
+                      </p>
+                    </div>
+                    <div className="footer-social-icon">
+                      <span>Follow us</span>
+                      <ul className="social_icon">
+                        <li>
+                          <a href="#">
+                            <i className="fab fa-facebook-f"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fab fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div className="footer-widget">
+                    <div className="footer-widget-heading">
+                      <h3>Useful Links</h3>
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="#">Our Team</a>
+                      </li>
+                      <li>
+                        <a href="#">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Gallery</a>
+                      </li>
+                      <li>
+                        <a href="#">Selection Process</a>
+                      </li>
+                      <li>
+                        <a href="#">FAQ</a>
+                      </li>
+                      <li>
+                        <a href="#">Sponsorship</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Policies</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Team</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div className="footer-widget">
+                    <div className="footer-widget-heading">
+                      <h3>Subscribe</h3>
+                    </div>
+                    <div className="footer-text mb-25">
+                      <p>
+                        Don’t miss to subscribe to our new feeds, kindly fill
+                        the form below.
+                      </p>
+                    </div>
+                    <div className="subscribe-form">
+                      <form action="#">
+                        <input type="text" placeholder="Email Address" />
+                        <button>
+                          <i className="fab fa-telegram-plane"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </footer>
-        </div>
+          </div>
+          <div className="copyright-area">
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div className="copyright-text">
+                    <p>
+                      Copyright &copy; 2023, All Right Reserved{" "}
+                      <a href="#">Hasibul Hasan</a>
+                    </p>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div className="footer-menu">
+                    <ul>
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy</a>
+                      </li>
+                      <li>
+                        <a href="#">Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </section>
     </>
   );
