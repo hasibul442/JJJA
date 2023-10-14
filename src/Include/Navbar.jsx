@@ -58,13 +58,18 @@ function Navbar() {
             >
               <ul className="navbar-nav mx-auto me-auto">
                 <li className="nav-item">
-                  <a className="nav-link nav-link-hover" href="#">
+                  <Link className="nav-link nav-link-hover" to="/">
                   {t("Navbar.Home")}
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item ">
                   <a className="nav-link nav-link-hover" href="#">
                   {t("Navbar.Services")}
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link nav-link-hover" href="#">
+                  {t("Navbar.Products")}
                   </a>
                 </li>
                 <li className="nav-item">
@@ -78,9 +83,9 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link nav-link-hover" href="#">
+                  <Link className="nav-link nav-link-hover" to="/contactus">
                   {t("Navbar.Contact")}
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="d-flex" role="search">

@@ -4,7 +4,8 @@
         "About": "About Us",
         "Contact": "Contact Us",
         "Services": "Services",
-        "Shipping": "Shipping"
+        "Shipping": "Shipping",
+        "Products": "Products"
     },
     "Home":{
         "banner_title": "Raining Offers For Hot Summer!",
@@ -14,5 +15,32 @@
     },
     "button" : {
         "shopnow" : "Shop Now"
+    },
+    "contactus": {
+        "Contact": "Contact",
+        "Name": "Name",
+        "Email": "Email",
+        "Message": "Message",
+        "Submit": "Submit",
+        "GetInTouch": "Get In Touch",
+        "Address": "Address",
+        "Phone": "Phone",
+        "Deriction": "Deriction",
+        "Telephone": "Telephone",
+        "Mobile": "Mobile"
+    },
+    "Footer" : {
+        "FindUs" : "Find Us",
+        "CallUs" : "Call Us",
+        "EmailUs" : "Email Us",
+        "Description" : "JJJA is a leading supplier of readymade garments and denim fabric in the world. The company produces some of the most fashionable denim fabrics and garment products",
+        "UsefulLinks" : "Useful Links",
+        "Subscribe" : "Subscribe",
+        "SubscribeText" : "Don’t miss to subscribe to our new feeds, kindly fill the form below.",
+        "FollowUs" : "Follow Us",
+        "OurTeam" : "Our Team",
+        "OurGallery" : "Our Gallery",
+        "FAQ" : "FAQ",
+        "EmailAddress" : "Email Address"
     }
 }

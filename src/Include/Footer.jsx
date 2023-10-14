@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
+  const year = new Date().getFullYear();
   return (
     <>
       <section className="footerBlock">
@@ -12,7 +15,7 @@ function Footer() {
                   <div className="single-cta">
                     <i className="fas fa-map-marker-alt"></i>
                     <div className="cta-text">
-                      <h4>Find us</h4>
+                      <h4>{t("Footer.FindUs")}</h4>
                       <span>
                         Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
                         Bangalore-560016{" "}
@@ -24,8 +27,8 @@ function Footer() {
                   <div className="single-cta">
                     <i className="fas fa-phone"></i>
                     <div className="cta-text">
-                      <h4>Call us</h4>
-                      <span>+91 1234567890</span>
+                      <h4>{t("Footer.CallUs")}</h4>
+                      <span>+91 1XXXXXXX0</span>
                     </div>
                   </div>
                 </div>
@@ -33,7 +36,7 @@ function Footer() {
                   <div className="single-cta">
                     <i className="far fa-envelope-open"></i>
                     <div className="cta-text">
-                      <h4>Mail us</h4>
+                      <h4>{t("Footer.EmailUs")}</h4>
                       <span>contact@gmail.com</span>
                     </div>
                   </div>
@@ -55,11 +58,11 @@ function Footer() {
                     </div>
                     <div className="footer-text">
                       <p>
-                      JJJA is a leading supplier of readymade garments and denim fabric in the world. The company produces some of the most fashionable denim fabrics and garment products.
+                      {t("Footer.Description")}
                       </p>
                     </div>
                     <div className="footer-social-icon">
-                      <span>Follow us</span>
+                      <span>{t("Footer.FollowUs")}</span>
                       <ul className="social_icon">
                         <li>
                           <a href="#">
@@ -88,35 +91,20 @@ function Footer() {
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                   <div className="footer-widget">
                     <div className="footer-widget-heading">
-                      <h3>Useful Links</h3>
+                      <h3>{t("Footer.UsefulLinks")}</h3>
                     </div>
                     <ul>
                       <li>
-                        <a href="#">Our Team</a>
+                        <a href="#">{t("Footer.OurTeam")}</a>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#">{t("Footer.OurGallery")}</a>
                       </li>
                       <li>
-                        <a href="#">Our Gallery</a>
+                        <a href="#">{t("Navbar.About")}</a>
                       </li>
                       <li>
-                        <a href="#">Selection Process</a>
-                      </li>
-                      <li>
-                        <a href="#">FAQ</a>
-                      </li>
-                      <li>
-                        <a href="#">Sponsorship</a>
-                      </li>
-                      <li>
-                        <a href="#">Our Policies</a>
-                      </li>
-                      <li>
-                        <a href="#">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact us</a>
+                        <a href="#">{t("Footer.FAQ")}</a>
                       </li>
                     </ul>
                   </div>
@@ -124,17 +112,16 @@ function Footer() {
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                   <div className="footer-widget">
                     <div className="footer-widget-heading">
-                      <h3>Subscribe</h3>
+                      <h3>{t("Footer.Subscribe")}</h3>
                     </div>
                     <div className="footer-text mb-25">
                       <p>
-                        Don’t miss to subscribe to our new feeds, kindly fill
-                        the form below.
+                      {t("Footer.SubscribeText")}
                       </p>
                     </div>
                     <div className="subscribe-form">
                       <form action="#">
-                        <input type="text" placeholder="Email Address" />
+                        <input type="text" placeholder={t("Footer.EmailAddress")} />
                         <button>
                           <i className="fab fa-telegram-plane"></i>
                         </button>
@@ -151,7 +138,7 @@ function Footer() {
                 <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                   <div className="copyright-text">
                     <p>
-                      Copyright &copy; 2023, All Right Reserved{" "}
+                      Copyright &copy; {year}, All Right Reserved{" "}
                       <a href="#">Hasibul Hasan</a>
                     </p>
                   </div>
@@ -163,13 +150,13 @@ function Footer() {
                         <a href="#">Home</a>
                       </li>
                       <li>
-                        <a href="#">Terms</a>
+                        <a href="#">Service</a>
                       </li>
                       <li>
-                        <a href="#">Privacy</a>
+                        <a href="#">About Us</a>
                       </li>
                       <li>
-                        <a href="#">Policy</a>
+                        <a href="#">Product</a>
                       </li>
                       <li>
                         <a href="#">Contact</a>
